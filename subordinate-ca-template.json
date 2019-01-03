@@ -1,0 +1,13 @@
+{
+    \\"KeyAlgorithm\\": \\"RSA_2048\\",
+    \\"SigningAlgorithm\\": \\"SHA256WITHRSA\\",
+    \\"Subject\\":
+    {
+        \\"Country\\": \\"$COUNTRY_CODE\\",
+        \\"State\\": \\"$PROVINCE\\",
+        \\"Locality\\": \\"$LOCALITY\\",
+        \\"Organization\\": \\"$ORG_NAME\\",
+        \\"OrganizationalUnit\\": \\"$ORG_UNIT\\",
+        \\"CommonName\\": \\"$SUBORDINATE_CA_CN\\"
+    }
+}

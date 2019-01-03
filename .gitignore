@@ -1,0 +1,16 @@
+
+# Ignore the .terraform configuration folder which includes
+# a large cached binary that is divorced from the changeable
+# system binary.
+**/.terraform/*
+
+# Ignore all pem files
+*.pem
+
+# Ignore all files produced to hold and backup state which
+# includes terraform.tfstate and terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# When terraform crashes it can leave this file behind.
+crash.log
